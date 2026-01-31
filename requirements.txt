@@ -1,3 +1,6 @@
 flask
-transformers
-torch
+gunicorn
+google-generativeai
+opencv-python
+tensorflow
+numpy
