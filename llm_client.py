@@ -2,7 +2,7 @@ import google.generativeai as genai
 import os
 
 # ✅ Correct: use the ENV VARIABLE NAME
-genai.configure(api_key=os.getenv("AIzaSyAbVbePkVcmqyKvGQewskr0OFm_3F6I3to"))
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 model = genai.GenerativeModel("gemini-pro")
 
